@@ -15,7 +15,7 @@ dotnet fsi --langversion:preview Server.fsx  <br />
 After server has started running, run the simulation file using :  <br />
 dotnet fsi --langversion:preview Simulator.fsx numClients maxfollowerCount maxtotaltweets  <br />
 
-( Note : Provide values for all 3 parameters :
-numClients - number of users the simulation will have
-maxfollowerCount - maximum number of users a user can follow
+( Note : Provide values for all 3 parameters :  <br />
+numClients - number of users the simulation will have  <br />
+maxfollowerCount - maximum number of users a user can follow  <br />
 maxtotaltweets - maximum number of tweets a user can tweet )
