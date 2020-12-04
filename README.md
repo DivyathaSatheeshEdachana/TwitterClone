@@ -9,11 +9,11 @@ Divyatha Satheeshan Edachana | UFID : 0710-8354
 2. Go to directory TwitterclonePart1 by using the command :
 cd TwitterclonePart1
 3. Ensure Client.fsx, Server.fsx, Simulator.fsx and Messages.fsx are included in the compile in .fsproj file						
-4. Through the command line, run the program using the commands :								
-First run the server process using :
-dotnet fsi --langversion:preview Server.fsx
-After server has started running, run the simulation file using :
-dotnet fsi --langversion:preview Simulator.fsx numClients maxfollowerCount maxtotaltweets
+4. Through the command line, run the program using the commands :		 <br />						
+First run the server process using :  <br />
+dotnet fsi --langversion:preview Server.fsx  <br />
+After server has started running, run the simulation file using :  <br />
+dotnet fsi --langversion:preview Simulator.fsx numClients maxfollowerCount maxtotaltweets  <br />
 
 ( Note : Provide values for all 3 parameters :
 numClients - number of users the simulation will have
